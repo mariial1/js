@@ -128,4 +128,57 @@ alert(mypatronymic);
 console.log(mypatronymic);
 document.write(mypatronymic);
 
+/// задание 5
+
+alert(myname+' '+mypatronymic+' '+mysurname);
+console.log(myname+' '+mypatronymic+' '+mysurname);
+document.write(myname+' '+mypatronymic+' '+mysurname);
+
+///задание 6
+
+let name = prompt('Ваше имя?');
+
+alert(name);
+console.log(name);
+document.write(name);
+
+let surname = prompt('Ваша фамилия?');
+
+alert(surname);
+console.log(surname);
+document.write(surname);
+
+let patronymic = prompt('Ваше отчество?');
+
+alert(patronymic);
+console.log(patronymic);
+document.write(patronymic);
+
+/// задание 7
+
+let age = + prompt('Сколько Вам лет?');
+
+console.log(age);
+
+let drive = + prompt('Сколько лет Вы ездите за рулем автомобиля?');
+
+console.log(drive);
+
+let driverlicense = + prompt('Во сколько лет Вы получили права?');
+
+console.log(driverlicense)
+
+/// задание 8
+
+let age1 = parseFloat('Сколько Вам лет?');
+
+console.log(age1);
+
+let experience = parseFloat('Какой у Вас стаж работы?');
+
+console.log(experience);
+
+let children = parseFloat('Сколько у Вас детей?');
+
+console.log(children);
 
