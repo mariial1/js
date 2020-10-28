@@ -101,5 +101,31 @@ let variable4 = '777';
 let variable5 = '44';
 let variable6 = '000';
 
+console.log(variable1);
+console.log(variable2);
+console.log(variable3);
+console.log(variable4);
+console.log(variable5);
+console.log(variable6);
+
+///
+
+let myname = prompt('Ваше имя?');
+
+alert(myname);
+console.log(myname);
+document.write(myname);
+
+let mysurname = prompt('Ваша фамилия?');
+
+alert(mysurname);
+console.log(mysurname);
+document.write(mysurname);
+
+let mypatronymic = prompt('Ваше отчество?');
+
+alert(mypatronymic);
+console.log(mypatronymic);
+document.write(mypatronymic);
 
 
